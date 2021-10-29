@@ -1,0 +1,75 @@
+.dark-background{
+    background-color: #2b362e;
+    color: #fafcfb;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#crimeFilter {
+}
+
+#NotesDate {
+    display:flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#Notes {
+    display:flex;
+    justify-content: center;
+}
+
+#saveNote {
+    display: flex;
+    justify-content: center;
+}
+
+#contentcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+#CriminalCard {
+
+border: 1px dotted black;
+width: 250px;
+height: 150px;
+padding: 5px;
+margin: 5px;
+}
+
+#ofccontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+}
+
+#ofcCard {
+    border: 1px dotted black;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
+
+#facilitiescontainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+
+#facCard {
+    border: 1px dotted black;
+    text-align: center;
+    width: 275px;
+    height: auto;
+    padding: 5px;
+    margin: 5px;
+}
