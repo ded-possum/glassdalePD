@@ -19,7 +19,7 @@ export const criminalList = (filterObject) => {
             })
         }
 
-        if (filterObject.type === "Arresting") {
+        if (filterObject?.type === "Arresting") {
             criminalsArray = criminalsArray.filter((singleCriminalObj) => {
                 return singleCriminalObj ?
                  singleCriminalObj.arrestingOfficer === filterObject.filterValue : false
@@ -33,8 +33,8 @@ export const criminalList = (filterObject) => {
     })
 }
 
-criminalTarget.addEventListener("click", function () {
-    document.querySelector("#crimeFilter").innerHTML = ""
-    ConvictionSelect()
-    criminalList()
-})
+// criminalTarget.addEventListener("click", function () {
+//     document.querySelector("#crimeFilter").innerHTML = ""
+//     ConvictionSelect()
+//     criminalList()
+// })

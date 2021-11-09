@@ -2,7 +2,9 @@
     background-color: #2b362e;
     color: #fafcfb;
 }
-
+#dark-mode {
+    background-color: blue;
+}
 nav {
     display: flex;
     flex-direction: row;
@@ -14,25 +16,46 @@ nav {
 
 #NotesDate {
     display:flex;
+    flex-direction: row;
     justify-content: center;
     margin: 10px;
     padding: 10px;
+    
 }
 
+#date {
+    color: blue;
+}
+
+#note-text {
+    color: blue;
+}
 #Notes {
     display:flex;
     justify-content: center;
+    
+    
 }
 
 #saveNote {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    background-color: green;
+    border-radius: 70%;
+    margin: 5px;
+}
+
+.del {
+    background-color: red;
+    border-radius: 70%;
 }
 
 #contentcontainer {
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-evenly;
+    
 }
 
 #CriminalCard {
@@ -71,5 +94,10 @@ margin: 5px;
     width: 275px;
     height: auto;
     padding: 5px;
+    margin: 5px;
+}
+
+#noteCard {
+    border: 1px solid yellowgreen;
     margin: 5px;
 }
