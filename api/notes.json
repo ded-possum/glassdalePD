@@ -1,19 +1,24 @@
 {
   "notes": [
     {
-      "date": "",
-      "notes": "test 1",
-      "id": 1
+      "id": 1,
+      "date": "2021-11-11",
+      "notes": "edits today"
     },
     {
-      "date": "",
-      "notes": "test 2",
-      "id": 2
-    },
-    {
+      "id": 2,
       "date": "2021-10-27",
-      "notes": "Testing divs",
-      "id": 3
+      "notes": "werfgerger"
+    },
+    {
+      "id": 3,
+      "date": "2021-10-27",
+      "notes": "There's stuff in here now"
+    },
+    {
+      "date": "2021-11-24",
+      "notes": "xcbvzcvasvasdv",
+      "id": 5
     }
   ]
 }

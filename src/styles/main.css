@@ -42,12 +42,18 @@ nav {
     flex-direction: row;
     justify-content: center;
     background-color: green;
-    border-radius: 70%;
+    border-radius: 10%;
     margin: 5px;
 }
 
 .del {
     background-color: red;
+    border-radius: 70%;
+}
+
+.edit {
+    background-color: chartreuse;
+    color: grey;
     border-radius: 70%;
 }
 

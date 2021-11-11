@@ -18,7 +18,7 @@ contentTarget.addEventListener("click", clickEvent => {
             date: dateTarget,
             notes: noteTarget
         }
-        // console.log(newNote)
+
         // Change API state and application state
         saveNote(newNote)
         .then(NoteList) 
@@ -36,8 +36,9 @@ export const NoteForm = () => {
     <div id=Notes>
         <label for="note-text">Note:</label>
         <textarea id="note-text" placeholder="Note"></textarea>
-    </div>
+
         <button id="saveNote">Save Note</button>
-    </section>
+        </div>
+        </section>
         `
     }
